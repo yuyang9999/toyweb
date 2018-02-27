@@ -17,7 +17,7 @@
     },
     methods: {
       test() {
-        axios.get('/api/one_day?symbol=aapl').then(function (resp) {
+        axios.get('/test').then(function (resp) {
           console.log(resp);
         }).catch(function (error) {
           console.log(error);
